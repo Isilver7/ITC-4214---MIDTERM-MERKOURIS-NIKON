@@ -1,0 +1,110 @@
+
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #0066cc;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
+    color: #cce6ff;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h5, .card p {
+    color: #333;
+}
+
+.card .card-title {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+}
+
+body.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+body.dark-mode .card h5, body.dark-mode .card p {
+    color: #e0e0e0;
+}
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.footer .social-media a {
+    color: #ffffff;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer .social-media a:hover {
+    color: #cce6ff;
+}
+
+
+.map-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+body.dark-mode .list-group-item {
+    background-color: #333;
+    color: #ffffff;
+    border-color: #444;
+}
+
+body.dark-mode .form-control {
+    background-color: #333;
+    color: #ffffff;
+    border-color: #444;
+}
+
+body.dark-mode .list-group-item {
+    background-color: #333;
+    color: #ffffff;
+    border-color: #444;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Inverts the icon colors to black */
+}
+
+
+body.dark-mode .carousel-control-prev-icon,
+body.dark-mode .carousel-control-next-icon {
+    filter: invert(0); /* Keeps the icon colors white */
+}
+
+
